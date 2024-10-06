@@ -37,6 +37,10 @@ display: flex;
 height: 302px;
 width: 302px;
 margin-bottom: 24px;
+opacity: 1;
+  display: block;
+  transition: .5s ease;
+  backface-visibility: hidden;
 }
 
 .pfp {
@@ -123,4 +127,14 @@ margin-left: 6px;
 padding-top: 26.67px;
 margin-left: 110.82px;
 }
- 
+
+
+.text:hover {
+    color: #00FFF8;
+    cursor: pointer;
+}
+
+.name:hover {
+    color: #00FFF8;
+    cursor: pointer;
+}
